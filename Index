@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Montage Video</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#000;
+    color:#fff;
+    text-align:center;
+}
+
+header{
+    padding:20px;
+    background:#111;
+}
+
+.container{
+    padding:20px;
+}
+
+video{
+    width:100%;
+    max-width:800px;
+    border-radius:10px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:15px;
+    padding:12px 25px;
+    background:#ff0000;
+    color:#fff;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+footer{
+    margin-top:30px;
+    padding:15px;
+    background:#111;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Montage Video</h1>
+    <p>Koleksi Video Terbaik</p>
+</header>
+
+<div class="container">
+
+    <video controls autoplay muted>
+        <source src="VIDEO_LINK_ANDA.mp4" type="video/mp4">
+        Browser Anda tidak mendukung video.
+    </video>
+
+    <br>
+
+    <a href="VIDEO_LINK_ANDA.mp4" class="btn" target="_blank">
+        Tonton Full Video
+    </a>
+
+</div>
+
+<footer>
+    © 2026 Montage Video
+</footer>
+
+</body>
+</html>
